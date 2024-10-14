@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style:none;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: calc(100vh - 63.92px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50pt;
+    background: linear-gradient(to right, rgb(202, 158, 61), rgb(19, 201, 110));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
