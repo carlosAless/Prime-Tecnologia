@@ -1,0 +1,22 @@
+/* Relogio.css */
+.section-relogio {
+    height: 1000px;
+    position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
+  }
+  
+  .title {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 10px; /* Próximo à borda esquerda */
+    transform: translateY(-50%); /* Ajuste para centralizar corretamente */
+    writing-mode: vertical-rl; /* Modo de escrita vertical, da direita para a esquerda */
+    transform: rotate(180deg); /* Inverte o texto para ficar de baixo para cima */
+
+}
+.title h2 {
+    margin: 0;
+    padding: 10px;
+    background: transparent; /* Sem fundo */
+    color: #fff; /* Texto branco */
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+  }
