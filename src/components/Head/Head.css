@@ -43,7 +43,7 @@ img{
 h1 {
     text-align: center;
     font-size: 50pt;
-    background: rgb(19, 83, 201);
+    background: linear-gradient(to right,  rgb(42, 128, 185),rgb(42, 128, 185), rgb(236, 81, 9));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

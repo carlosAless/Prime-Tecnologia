@@ -16,6 +16,9 @@ return (
 <header>
     <h1>
         Prime trazendo soluções em T.I para a sua empresa
+        <br></br>
+        <img src="https://cdn.dribbble.com/users/1459765/screenshots/3563580/scrolling_mousewheel.gif" style={{ width: "100px", marginTop: "100px"}}
+ alt="" srcset="" />
     </h1>
 </header>
 

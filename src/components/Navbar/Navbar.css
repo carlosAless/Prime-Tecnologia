@@ -4,16 +4,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-}
-
-.navbar::after{
-    content: "";
-    width: 130%;
-    position: absolute;
-    height: 1px;
-    background-color: black;
-    top: 60px;
-    left: -12%;
+    
 }
 
 .navbar .logo{
@@ -29,7 +20,7 @@
 }
 
 .navbar-menu > li{
-    color: white;
+    color: black;
 }
 
 .navbar-right{

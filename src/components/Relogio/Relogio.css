@@ -1,9 +1,14 @@
 /* Relogio.css */
 .section-relogio {
-  margin-top: 100px;
-  background-color: black;
+    background-color: rgb(20, 14, 53);
+    width: 100vw;
     height: 1000px;
-    position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    position: absolute; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
   }
   
   .title {
