@@ -7,7 +7,6 @@ import mapa from '../../assets/mapa.png'
 import Particles from '../Particles'
 
 
-
 const Head = () => {
 return (
     <div className='head'>
@@ -22,7 +21,7 @@ return (
 
 <section className="services-section">
         <div className="service-item">
-            <img src={suporte} alt="suporte" srcset="" />
+            <img src={suporte} alt="suporte" srcSet="" />
           <p>Suporte 24/7</p>
         </div>
         <div className="service-item">

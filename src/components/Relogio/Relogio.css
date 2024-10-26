@@ -1,5 +1,7 @@
 /* Relogio.css */
 .section-relogio {
+  margin-top: 100px;
+  background-color: black;
     height: 1000px;
     position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
   }
