@@ -1,8 +1,7 @@
-import React from 'react';
 import './Head.css'
 import suporte from '../../assets/suporte.png'
-import pessoas from '../../assets/pessoas.png'
-import experiencia from '../../assets/experiencia.png'
+import empresas from '../../assets/empresas.png'
+import avaliacao from '../../assets/avaliacao.png'
 import mapa from '../../assets/mapa.png'
 import Particles from '../Particles'
 
@@ -15,10 +14,11 @@ return (
 
 <header>
     <h1>
-        Prime trazendo soluções em T.I para a sua empresa
+        PRIME TRASENDO SOLUÇÕES EM T.I PARA A SUA EMPRESA
         <br></br>
+    
         <img src="https://cdn.dribbble.com/users/1459765/screenshots/3563580/scrolling_mousewheel.gif" style={{ width: "100px", marginTop: "100px"}}
- alt="" srcset="" />
+ alt="" />
     </h1>
 </header>
 
@@ -28,11 +28,11 @@ return (
           <p>Suporte 24/7</p>
         </div>
         <div className="service-item">
-          <img src={pessoas} alt="+12 empresas mensalistas" className="icon" />
+          <img src={empresas} alt="+12 empresas mensalistas" className="icon" />
           <p>+12 empresas mensalistas</p>
         </div>
         <div className="service-item">
-          <img src={experiencia} alt="+9 anos de experiência" className="icon" />
+          <img src={avaliacao} alt="+9 anos de experiência" className="icon" />
           <p>+9 anos de experiência</p>
         </div>
         <div className="service-item">

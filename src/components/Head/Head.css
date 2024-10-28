@@ -8,12 +8,12 @@
     text-align: center;
 }
 
-head{
+.head{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-content: center;
-    gap: 2rem;
 }
 
 .services-section{
@@ -27,8 +27,6 @@ head{
 
 .services-section .service-item{
 
-    width: 150px;
-    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,8 +46,31 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
+.service-item{
+    width: 250px;
+    height: 150px;
+    backdrop-filter: blur(20px) saturate(150%);
+      -webkit-backdrop-filter: blur(10px) saturate(150%); /* Para compatibilidade com Safari */
+      border-radius: 15px;
+      border: 1px solid rgba(247, 242, 242, 0.733);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+      font-size: 1.2em;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     
+}
+
+.service-item p{
+    color:black;
+}
+
 header{
     height: 80vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 0 3rem;
 }
