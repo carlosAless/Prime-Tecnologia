@@ -11,6 +11,7 @@
   align-items: center;
   margin: 0rem 6rem;
   gap: 10rem;
+ 
 }
 
 .relogio .info{
@@ -29,6 +30,9 @@
     padding: 20rem 0rem 20rem 0rem;
     right: 0;
     position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
+    background-image: url('../../assets/grid.png');
+    background-repeat: repeat; /* Repete a imagem infinitamente */
+    background-size: 10px;
   }
   
   .section-relogio .title {
