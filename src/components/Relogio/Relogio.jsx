@@ -1,7 +1,11 @@
 import './Relogio.css'
 
-import relogio from '../../assets/relogio.png'
-import rhid from '../../assets/rhid.webp'
+
+
+import idclass from '../../assets/idclass.png'
+import idflex from '../../assets/idflex.png'
+import idlock from '../../assets/idlock.webp'
+import catracaid from '../../assets/catracaid.png'
 
 const Relogio = ()=>{
     return (
@@ -11,7 +15,7 @@ const Relogio = ()=>{
         </div>
 
         <main className='relogio'>
-          <div>
+          
           <section className="info">
               <div className="title-controle">
                 <h2>Controle de acesso</h2>
@@ -41,13 +45,14 @@ const Relogio = ()=>{
                 <p>Control iD</p>
 
               </div>
-          </section>
-          </div>
-          
-          <section className='rhid'>
-            <img src={rhid} alt="" srcSet="" />
-          </section>
 
+              <section className='produtosid'>
+                 <img src={idclass} alt="idclass" id='idclass' srcSet="" />
+                 <img src={idflex} alt="idflex" id='idflex' srcset="" />
+                 <img src={idlock} alt="idclock" id='idlock' srcset="" />
+                 <img src={catracaid} alt="catracaid" id='catracaid' srcset="" />
+              </section>
+          </section>
 
         </main>
       </div>

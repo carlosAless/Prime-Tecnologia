@@ -18,8 +18,10 @@ const Contact = () =>{
 
             <div className="input-group">
                 <label htmlFor='mensagem'>Mensagem</label>
-                <input type="text" id='mensagem' name='mensagem' placeholder='Digite sua mensagem' />
+                <textarea rows={5} cols={30} name="mensagem" id="mensagem"></textarea>
             </div>
+
+            <button type="submit">ENVIAR</button>
          </form>
 
          <div className="mapa">

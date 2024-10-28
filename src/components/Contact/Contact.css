@@ -18,8 +18,45 @@
     height: 100%;
 }
 
+.input-group label, .input-group input{
+    text-align: start;
+}
+
+.input-group input{
+    min-height: 40px;
+}
+
 .contact{
-    display: flex;
-    flex-direction: column;
-    gap:3rem;
+    width: 100%;
+    display: grid;
+    grid-template-rows:1fr 1fr 4fr 30px;
+    gap:1rem;
+}
+
+.contact .input-group{
+    width: 100%;
+}
+
+.contact .input-group input{
+    height: 100%;
+    color: black;
+    text-align: start;
+    font-size: 14pt;
+}
+
+.contact .input-group textarea{
+    height: 100%;
+    color: black;
+    text-align: start;
+    font-size: 14pt;
+    resize: none;
+}
+
+.contact button{
+    color: black;
+}
+
+
+.mapa{
+    width: 100%;
 }
