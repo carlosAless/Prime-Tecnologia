@@ -2,9 +2,6 @@
 * {
   color: #fff;
 }
-.section-relogio {
-  padding: 0 5%;
-}
 
 .relogio {
   display: flex;
@@ -56,7 +53,7 @@
   justify-content: center;
   align-items: center;
   left: 0;
-  padding: 20rem 0rem 20rem 0rem;
+  padding: 20rem 5%;
   right: 0;
   position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
   background-image: url("../../assets/grid.png");
@@ -109,7 +106,7 @@
 }
 
 img:hover {
-  transform: scale(2.05);
+  transform: scale(1.05);
 }
 .controle-acesso .produtosid {
   display: flex;
@@ -159,4 +156,42 @@ img {
   left: 15%;
   transform: translate(-50%, -50%);
   z-index: 98;
+}
+.sectionClock {
+  padding: 20px;
+  margin-top: 20%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Contêiner principal para o layout */
+.containerClock {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  grid-gap: 20px;
+  align-items: center;
+  width: 100%; /* Garante que a largura do container ocupe o espaço disponível */
+}
+
+.imageContainer img {
+  width: 100%;
+}
+.rhid {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.rhidImage {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.rhidImage img {
+  width: 80%;
 }

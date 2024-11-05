@@ -4,6 +4,7 @@ import idclass from "../../assets/idclass.png";
 import idflex from "../../assets/idflex.png";
 import idlock from "../../assets/idlock.webp";
 import catracaid from "../../assets/catracaid.png";
+import rhid from "../../assets/rhid.webp";
 
 const Relogio = () => {
   return (
@@ -58,13 +59,53 @@ const Relogio = () => {
             <span>Revendedor autorizado</span> Control <span>iD</span>
           </p>
         </section>
+
+        <section className="sectionClock">
+          <h2>IDClass Equipamento líder em vendas</h2>
+          <div className="containerClock">
+            <div className="clockInformation info1">
+              <p>Capacidade de bobina até 400 metros</p>
+            </div>
+            <div className="clockInformation info2">
+              <p>Display colorido de 2,4 polegadas</p>
+            </div>
+
+            <div className="clockInformation info3">
+              <p>Duas portas USB fiscal e geral</p>
+            </div>
+
+            <div className="info4">
+              <p>Conexão de Internet</p>
+            </div>
+            <div className="imageContainer">
+              <img src={idclass} alt="idclass" className="idclass" />
+            </div>
+
+            <div className="clockInformation info5">
+              <p>
+                RH<span>ID</span> + IDCLOUD integração com software de apuração
+                de ponto na nuvem
+              </p>
+            </div>
+
+            <div className="clockInformation info6">
+              <p>Leitor de digital</p>
+            </div>
+            <div className="clockInformation info7">
+              <p>Leitor de código de barras</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="rhid">
+          <h2>Sistema de ponto integrado ao RHID</h2>
+          <p>RHID para gerenciamento de RH</p>
+
+          <div className="rhidImage">
+            <img src={rhid} alt="rhid" />
+          </div>
+        </section>
       </div>
-
-      <section>
-        <p>relogio</p>
-
-        <img src={idclass} alt="idclass" srcSet="" />
-      </section>
     </>
   );
 };
