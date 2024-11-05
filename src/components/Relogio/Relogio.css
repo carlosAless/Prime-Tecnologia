@@ -1,118 +1,162 @@
 /* Relogio.css */
-*{
+* {
   color: #fff;
-
+}
+.section-relogio {
+  padding: 0 5%;
 }
 
-.relogio{
+.relogio {
   display: flex;
-  flex-direction: row;
+
   justify-content: center;
   align-items: center;
-  margin: 0rem 6rem;
+
   gap: 10rem;
- 
 }
 
-
-.relogio .info{
+.relogio .info {
   display: flex;
   flex-direction: column;
-}
-
-.relogio .controle-acesso{
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
   width: 100%;
 }
 
-.section-relogio {
-    background-color: #0C0F30;
-    width: 100vw;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 0;
-    padding: 20rem 0rem 20rem 0rem;
-    right: 0;
-    position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
-    background-image: url('../../assets/grid.png');
-    background-repeat: repeat; /* Repete a imagem infinitamente */
-    background-size: 15px;
-  }
-  
-  .section-relogio .title {
-    position: absolute;
-    top: 50%; /* Centraliza verticalmente */
-    left: 10px; /* Próximo à borda esquerda */
-    transform: translateY(-50%); /* Ajuste para centralizar corretamente */
-    writing-mode: vertical-rl; /* Modo de escrita vertical, da direita para a esquerda */
-    transform: rotate(180deg); /* Inverte o texto para ficar de baixo para cima */
+.relogio .revenda {
+  width: 100%;
+}
+.relogio .info .btn button {
+  background-color: cornflowerblue;
+  padding: 0.5rem;
+}
 
+.relogio .controle-acesso {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.relogio .title-controle {
+  font-weight: 900;
+  font-size: max(2vw, 20px);
+  -webkit-text-stroke: 2px #fff; /* Contorno em branco */
+}
+
+.descricao p {
+  text-align: start;
+}
+
+.section-relogio {
+  background-color: #0c0f30;
+  width: 100vw;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  padding: 20rem 0rem 20rem 0rem;
+  right: 0;
+  position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
+  background-image: url("../../assets/grid.png");
+  background-repeat: repeat; /* Repete a imagem infinitamente */
+  background-size: 15px;
+}
+
+.section-relogio .title {
+  position: absolute;
+  top: 50%; /* Centraliza verticalmente */
+  left: 10px; /* Próximo à borda esquerda */
+  transform: translateY(-50%); /* Ajuste para centralizar corretamente */
+  writing-mode: vertical-rl; /* Modo de escrita vertical, da direita para a esquerda */
+  transform: rotate(180deg); /* Inverte o texto para ficar de baixo para cima */
 }
 .section-relogio .title h2 {
-    margin: 0;
-    padding: 10px;
-    background: transparent; /* Sem fundo */
-    color: #fff; /* Texto branco */
-    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
-  }
-
-  .escrito p {
-    font-size: 3em;                              /* Tamanho da fonte */
-    color: transparent;                           /* Texto transparente */
-    -webkit-text-stroke: 2px #fff;              /* Contorno em branco */
-    background-color: transparent;                /* Fundo transparente */
+  margin: 0;
+  padding: 10px;
+  background: transparent; /* Sem fundo */
+  color: #fff; /* Texto branco */
+  font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
 }
 
-.rhid img{
+.escrito p {
+  font-size: 3em;
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+  background-color: transparent;
+}
+/*
+.escrito p:last-child {
+  font-size: 4em;
+}
+
+.escrito p:last-child span:last-child {
+  color: red;
+}
+
+.escrito p:last-child + span {
+  font-size: 1em;
+} */
+
+.rhid img {
   width: 100%;
   border-radius: 20px;
 }
 
-.controle-acesso{
-  position:relative;
+.controle-acesso {
+  position: relative;
 }
 
-.controle-acesso .produtosid{
+img:hover {
+  transform: scale(2.05);
+}
+.controle-acesso .produtosid {
+  display: flex;
+  justify-content: center;
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
 }
+img {
+  width: 150px; /* Tamanho das imagens */
+  margin-left: -30px; /* Ajusta a sobreposição */
+  transition: transform 0.3s ease;
+}
 
-.controle-acesso .produtosid #idclass{
+.controle-acesso .produtosid #idclass {
   width: 400px;
-  position:absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
-
 }
 
-.controle-acesso .produtosid #idflex{
+.controle-acesso .produtosid #idflex {
   width: 350px;
-  position:absolute;
-  top: 55%;
-  left: 70%;
+  position: absolute;
+  top: 58%;
+  left: 75%;
   transform: translate(-50%, -50%);
   z-index: 99;
 }
 
-.controle-acesso .produtosid #idlock{
+.controle-acesso .produtosid #idlock {
   width: 150px;
-  position:absolute;
+  position: absolute;
   top: 65%;
-  left: 35%;
+  left: 25%;
   transform: translate(-50%, -50%);
   z-index: 99;
 }
 
-.controle-acesso .produtosid #catracaid{
+.controle-acesso .produtosid #catracaid {
   width: 150px;
-  position:absolute;
+  position: absolute;
   top: 65%;
-  left: 28%;
+  left: 15%;
   transform: translate(-50%, -50%);
   z-index: 98;
 }

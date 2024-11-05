@@ -1,77 +1,69 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    outline: none;
-    list-style:none;
-    text-decoration: none;
-    text-align: center;
+.head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 0 10%;
 }
 
-.head{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-
+.services-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
-.services-section{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-
+.services-section .service-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
 }
 
-.services-section .service-item{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap:1em;
-}
-
-img{
-    width: 40px;
+img {
+  width: 40px;
 }
 
 h1 {
-    text-align: center;
-    font-size: 50pt;
-    background: linear-gradient(to right,  rgb(42, 128, 185),rgb(42, 128, 185), rgb(236, 81, 9));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 50pt;
+  background: linear-gradient(
+    to right,
+    rgb(42, 128, 185),
+    rgb(42, 128, 185),
+    rgb(236, 81, 9)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.service-item{
-    width: 250px;
-    height: 150px;
-    backdrop-filter: blur(20px) saturate(150%);
-      -webkit-backdrop-filter: blur(10px) saturate(150%); /* Para compatibilidade com Safari */
-      border-radius: 15px;
-      border: 1px solid rgba(247, 242, 242, 0.733);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #fff;
-      text-align: center;
-      font-size: 1.2em;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-     
+.service-item {
+  width: 250px;
+  height: 150px;
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(10px) saturate(150%); /* Para compatibilidade com Safari */
+  border-radius: 15px;
+  border: 1px solid rgba(247, 242, 242, 0.733);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.service-item p{
-    color:black;
+.service-item p {
+  color: black;
 }
 
-header{
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 3rem;
+header {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3rem;
 }
