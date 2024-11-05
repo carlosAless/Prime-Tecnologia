@@ -53,7 +53,7 @@
   justify-content: center;
   align-items: center;
   left: 0;
-  padding: 20rem 5%;
+  padding: 0rem 5%;
   right: 0;
   position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
   background-image: url("../../assets/grid.png");

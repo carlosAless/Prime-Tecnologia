@@ -1,7 +1,11 @@
-footer{
-    background-color: #0C0F30;
-    color:white;
-    position: relative;
-    left:0px;
-    right: 100%;
+footer {
+  background-color: #0c0f30;
+  color: white;
+  position: relative;
+  left: 0px;
+  right: 100%;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

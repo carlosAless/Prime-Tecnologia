@@ -4,6 +4,7 @@ import Relogio from "./components/Relogio/Relogio";
 import Footer from "./components/Footer/Footer";
 import Redes from "./components/Redes/Redes";
 import Contact from "./components/Contact/Contact";
+import { Clients } from "./components/Clients/Clients";
 import "./App.css";
 
 const App = () => {
@@ -12,11 +13,8 @@ const App = () => {
       <Navbar></Navbar>
 
       <Head />
-
       <Relogio></Relogio>
-
       <Redes></Redes>
-
       <Contact></Contact>
       <Footer></Footer>
     </div>
