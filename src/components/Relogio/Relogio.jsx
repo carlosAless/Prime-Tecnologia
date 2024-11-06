@@ -5,11 +5,16 @@ import idflex from "../../assets/idflex.png";
 import idlock from "../../assets/idlock.webp";
 import catracaid from "../../assets/catracaid.png";
 import rhid from "../../assets/rhid.webp";
+import { Clients } from "../Clients/Clients";
 
 const Relogio = () => {
+  
   return (
     <>
+    
       <div className="section-relogio">
+
+      <Clients></Clients>
         <div className="title">
           <h2>Relogio de ponto</h2>
         </div>

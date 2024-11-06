@@ -13,6 +13,7 @@ const App = () => {
       <Navbar></Navbar>
 
       <Head />
+ 
       <Relogio></Relogio>
       <Redes></Redes>
       <Contact></Contact>

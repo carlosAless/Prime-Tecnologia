@@ -1,11 +1,14 @@
 .container-contact{
     height: 1000px;
-    background-color: rgb(26, 35, 110);
+    background-color: #0c0f30;
     padding:0rem 3rem;
     display: flex;
     flex-direction: row;
+    position: relative;
     justify-content: center;
     align-items: center;
+    clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+
 }
 
 .input-group{

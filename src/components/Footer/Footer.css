@@ -2,10 +2,64 @@ footer {
   background-color: #0c0f30;
   color: white;
   position: relative;
-  left: 0px;
-  right: 100%;
-  padding: 0 10%;
-  display: flex;
+  padding: 50px 10% 0px 10% ;
+  display: grid;
   justify-content: space-between;
   align-items: center;
+  grid-template-areas: 
+  "logo guia network"
+  "copyr copyr copyr"
+  ;
+  align-items: center;
+  text-align: center;
+}
+
+.logo{
+  grid-area: logo;
+}
+
+.logo img{
+  width: 150px;
+}
+
+.infoPrime{
+  grid-area: guia;
+}
+
+.network{
+  grid-area: network;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.primetecnologia{
+  grid-area: copyr;
+  margin: 30px 0px 0px 0px;
+}
+
+.network ul{
+  display: flex;
+  width: 100%;
+}
+
+
+
+.network ul li{
+  width: 100%;
+  position:relative;
+}
+
+.network ul li img{
+  position: absolute;
+  width:40px;
+  top: 50%;
+  left: 50%;
+}
+
+.infoPrime ul a li{
+  font-size: 10pt;
+  font-weight: 200;
 }

@@ -11,6 +11,15 @@ const Footer = () => {
       <div className="logo">
         <img src={logowhite} alt="logo" />
       </div>
+      <div className="infoPrime">
+        <p>Guia de navegação</p>
+        <ul>
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>Planos</li></a>
+          <a href="#"><li>Planos</li></a>
+          <a href="#"><li>Suporte</li></a>
+        </ul>
+      </div>
       <div className="network">
         <span>Siga-nos nas redes</span>
         <ul>

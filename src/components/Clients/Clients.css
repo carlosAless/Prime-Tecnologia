@@ -1,3 +1,15 @@
+.carrocel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
 .clients {
   padding-top: 20%;
+  background-color: #0c0f30;
+}
+
+.client img {
+  width: 100px;
 }

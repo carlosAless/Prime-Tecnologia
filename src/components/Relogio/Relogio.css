@@ -5,10 +5,8 @@
 
 .relogio {
   display: flex;
-
   justify-content: center;
   align-items: center;
-
   gap: 10rem;
 }
 
@@ -46,6 +44,7 @@
 }
 
 .section-relogio {
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%); /* Corte transversal */
   background-color: #0c0f30;
   width: 100vw;
   height: auto;
@@ -53,7 +52,7 @@
   justify-content: center;
   align-items: center;
   left: 0;
-  padding: 0rem 5%;
+  padding: 0rem 5% 15rem 5%;
   right: 0;
   position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
   background-image: url("../../assets/grid.png");
@@ -117,7 +116,6 @@ img:hover {
   height: 100%;
 }
 img {
-  width: 150px; /* Tamanho das imagens */
   margin-left: -30px; /* Ajusta a sobreposição */
   transition: transform 0.3s ease;
 }
