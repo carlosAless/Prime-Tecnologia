@@ -2,3 +2,17 @@
   width: 100%;
   margin: auto;
 }
+
+.app main{
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%); /* Corte transversal */
+  background-color: #0c0f30;
+  width: 100vw;
+  height: auto;
+  position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
+  background-image: url("./assets/grid.png");
+  background-repeat: repeat; /* Repete a imagem infinitamente */
+  background-size: 15px;
+  display: flex;
+  gap: 2vw;
+  flex-direction: column;
+}

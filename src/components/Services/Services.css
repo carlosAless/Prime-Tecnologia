@@ -1,0 +1,19 @@
+p{
+    color: white;
+}
+
+
+.service-item {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .service-item img {
+    width: 40px;
+  }
