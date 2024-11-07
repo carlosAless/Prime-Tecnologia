@@ -1,9 +1,8 @@
-import React from 'react';
-import logowhite from '../../assets/logowhite.png'; // Ajuste o caminho da sua imagem
-import whatsapp from '../../assets/whatsapp.svg'; // Ajuste o caminho da sua imagem
-import facebook from '../../assets/facebook.svg'
-import gmail from  '../../assets/gmail.svg'
-import './Footer.css'
+import logowhite from "../../assets/logowhite.png"; // Ajuste o caminho da sua imagem
+import whatsapp from "../../assets/whatsapp.svg"; // Ajuste o caminho da sua imagem
+import facebook from "../../assets/facebook.svg";
+import gmail from "../../assets/gmail.svg";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -14,10 +13,18 @@ const Footer = () => {
       <div className="infoPrime">
         <p>Guia de navegação</p>
         <ul>
-          <a href="#"><li>Home</li></a>
-          <a href="#"><li>Planos</li></a>
-          <a href="#"><li>Planos</li></a>
-          <a href="#"><li>Suporte</li></a>
+          <a href="#">
+            <li>Home</li>
+          </a>
+          <a href="#">
+            <li>Planos</li>
+          </a>
+          <a href="#">
+            <li>Planos</li>
+          </a>
+          <a href="#">
+            <li>Suporte</li>
+          </a>
         </ul>
       </div>
       <div className="network">
@@ -27,7 +34,7 @@ const Footer = () => {
             <img src={whatsapp} alt="whatsapp" />
           </li>
           <li>
-            <img src={facebook} alt="facebook"/>
+            <img src={facebook} alt="facebook" />
           </li>
           <li>
             <img src={gmail} alt="gmail" />
