@@ -44,20 +44,14 @@
 }
 
 .section-relogio {
-  clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%); /* Corte transversal */
-  background-color: #0c0f30;
-  width: 100vw;
-  height: auto;
+  
   display: grid;
   justify-content: center;
   align-items: center;
   left: 0;
   padding: 0rem 5% 15rem 5%;
   right: 0;
-  position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
-  background-image: url("../../assets/grid.png");
-  background-repeat: repeat; /* Repete a imagem infinitamente */
-  background-size: 15px;
+
 }
 
 .section-relogio .title {
