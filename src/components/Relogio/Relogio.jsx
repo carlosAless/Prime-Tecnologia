@@ -1,16 +1,13 @@
 import "./Relogio.css";
 
-import idclass from "../../assets/idclass.png";
-import idflex from "../../assets/idflex.png";
-import idlock from "../../assets/idlock.webp";
-import catracaid from "../../assets/catracaid.png";
 import rhid from "../../assets/rhid.webp";
+import controleacesso from "../../assets/controleacesso.svg"
 
 const Relogio = () => {
-  
+
   return (
     <>
-    
+
       <div className="section-relogio">
 
         <div className="title">
@@ -50,10 +47,7 @@ const Relogio = () => {
             </div>
 
             <section className="produtosid">
-              <img src={idclass} alt="idclass" id="idclass" srcSet="" />
-              <img src={idflex} alt="idflex" id="idflex" srcSet="" />
-              <img src={idlock} alt="idclock" id="idlock" srcSet="" />
-              <img src={catracaid} alt="catracaid" id="catracaid" srcSet="" />
+              <img src={controleacesso} alt="idclass" id="idclass" srcSet="" />
             </section>
           </section>
         </main>

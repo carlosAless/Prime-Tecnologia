@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   gap: 10rem;
 }
 
@@ -43,16 +44,7 @@
   text-align: start;
 }
 
-.section-relogio {
-  
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  left: 0;
-  padding: 0rem 5% 15rem 5%;
-  right: 0;
 
-}
 
 .section-relogio .title {
   position: absolute;

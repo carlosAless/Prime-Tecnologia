@@ -3,7 +3,7 @@
   margin: auto;
 }
 
-.app main{
+.app .main{
   clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%); /* Corte transversal */
   background-color: #0c0f30;
   width: 100vw;
@@ -15,5 +15,5 @@
   display: flex;
   gap: 2vw;
   flex-direction: column;
-  padding: 10rem 0;
+  padding: 10rem 5%;
 }
