@@ -32,6 +32,7 @@
   width: 100%;
   display: flex;
   justify-content: end;
+  height: 500px;
 }
 
 .relogio .title-controle {
@@ -40,7 +41,7 @@
   -webkit-text-stroke: 2px #fff; /* Contorno em branco */
 }
 
-.relogio .title-controle h2{
+.relogio .title-controle h2 {
   font-size: 30pt;
 }
 
@@ -62,11 +63,10 @@
   background: transparent; /* Sem fundo */
   color: #ffffff; /* Texto branco */
   font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
-
 }
 
-.escrito{
-  position:absolute;
+.escrito {
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -106,16 +106,16 @@ img:hover {
 .controle-acesso .produtosid {
   display: flex;
   justify-content: center;
-  position: absolute;
-  top: 0;
+  align-items: center;
+  position: relative;
   width: 100%;
   height: 100%;
 }
-img {
-  margin-left: -30px; /* Ajusta a sobreposição */
-  transition: transform 0.3s ease;
-}
 
+.controle-acesso .produtosid img {
+  width: 500px;
+  height: 500px;
+}
 
 h2 {
   text-align: center;
