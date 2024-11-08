@@ -8,7 +8,7 @@ const Relogio = () => {
     <>
       <div className="section-relogio">
         <div className="title">
-          <h2>Relogio de ponto</h2>
+          <h2>RELÓGIO DE PONTO</h2>
         </div>
 
         <main className="relogio">

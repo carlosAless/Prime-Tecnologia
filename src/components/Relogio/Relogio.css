@@ -36,8 +36,12 @@
 
 .relogio .title-controle {
   font-weight: 900;
-  font-size: max(2vw, 20px);
+  font-size: max(4vw, 60px);
   -webkit-text-stroke: 2px #fff; /* Contorno em branco */
+}
+
+.relogio .title-controle h2{
+  font-size: 30pt;
 }
 
 .descricao p {
@@ -56,8 +60,16 @@
   margin: 0;
   padding: 10px;
   background: transparent; /* Sem fundo */
-  color: #fff; /* Texto branco */
+  color: #ffffff; /* Texto branco */
   font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+
+}
+
+.escrito{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .escrito p {
@@ -104,45 +116,6 @@ img {
   transition: transform 0.3s ease;
 }
 
-.controle-acesso .produtosid #idclass {
-  width: 110%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 100;
-}
-
-.controle-acesso .produtosid #idflex {
-  width: 350px;
-  position: absolute;
-  top: 58%;
-  left: 75%;
-  transform: translate(-50%, -50%);
-  z-index: 99;
-}
-
-.controle-acesso .produtosid #idlock {
-  width: 150px;
-  position: absolute;
-  top: 65%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  z-index: 99;
-}
-
-.controle-acesso .produtosid #catracaid {
-  width: 150px;
-  position: absolute;
-  top: 65%;
-  left: 15%;
-  transform: translate(-50%, -50%);
-  z-index: 98;
-}
-.sectionClock {
-  padding: 20px;
-  margin-top: 20%;
-}
 
 h2 {
   text-align: center;
