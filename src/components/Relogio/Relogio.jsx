@@ -1,15 +1,12 @@
 import "./Relogio.css";
 
 import rhid from "../../assets/rhid.webp";
-import controleacesso from "../../assets/controleacesso.svg"
+import controleacesso from "../../assets/controleacesso.svg";
 
 const Relogio = () => {
-
   return (
     <>
-
       <div className="section-relogio">
-
         <div className="title">
           <h2>Relogio de ponto</h2>
         </div>
@@ -75,7 +72,7 @@ const Relogio = () => {
               <p>Conexão de Internet</p>
             </div>
             <div className="imageContainer">
-              <img src={idclass} alt="idclass" className="idclass" />
+              <img src={controleacesso} alt="idclass" className="idclass" />
             </div>
 
             <div className="clockInformation info5">
