@@ -1,17 +1,15 @@
 import "./Redes.css";
-import starlink from "../../assets/starlink.glb";
+import computer from "../../assets/computer.svg";
 
 const Redes = () => {
   return (
     <div className="redesContainer">
-      <h2>STARLINK</h2>
-      <model-viewer
-        src={starlink} // Substitua pelo caminho correto do seu modelo
-        alt="Antena Starlink"
-        auto-rotate
-        camera-controls
-        style={{ width: "80vw", height: "80vh" }}
-      ></model-viewer>
+      <h2>Seu computador está</h2fd>
+      <h1>LENTO?</h1>
+
+      <div className="computer">
+        <img src={computer} alt="computer" />
+      </div>
     </div>
   );
 };

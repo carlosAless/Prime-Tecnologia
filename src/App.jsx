@@ -14,10 +14,11 @@ const App = () => {
 
       <Head />
       <main className="main">
-
         <Services></Services>
         <Relogio></Relogio>
       </main>
+
+      <Redes></Redes>
 
       <Contact></Contact>
       <Footer></Footer>

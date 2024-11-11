@@ -1,99 +1,94 @@
-.container-contact{
-    background-color: #0c0f30;
-    padding:7rem 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
-
+.container-contact {
+  background-color: #0c0f30;
+  padding: 7rem 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
-.contact{
-    padding: 1rem;
-    border-radius: 4px;
-    display: grid;
-    grid-template-rows:1fr 1fr 4fr 30px;
-    gap:1rem;
-    background-color: #fff;
+.contact {
+  padding: 1rem;
+  border-radius: 4px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 4fr 30px;
+  gap: 1rem;
+  background-color: #fff;
 }
 
-.contact h2{
-    color: black;
+.contact h2 {
+  color: black;
 }
 
-.contact .input-group{
-    width: 100%;
+.contact .input-group {
+  width: 100%;
 }
 
-
-.contact .input-group input{
-    height: 100%;
-    color: black;
-    text-align: start;
-    font-size: 14pt;
-    border: 1px solid rgb(99, 95, 95);
-    border-radius: 4px;
+.contact .input-group input {
+  height: 100%;
+  color: black;
+  text-align: start;
+  font-size: 14pt;
+  border: 1px solid rgb(99, 95, 95);
+  border-radius: 4px;
 }
 
-.contact .input-group textarea{
-    height: 100%;
-    color: black;
-    text-align: start;
-    font-size: 14pt;
-    resize: none;
-    border-radius: 4px;
-    border: 1px solid rgb(99, 95, 95);
-
+.contact .input-group textarea {
+  height: 100%;
+  color: black;
+  text-align: start;
+  font-size: 14pt;
+  resize: none;
+  border-radius: 4px;
+  border: 1px solid rgb(99, 95, 95);
 }
 
-.contact button{
-    color: black;
+.contact button {
+  color: black;
 }
 
-.contact, .mapa iframe{
-    height: 400px;
-    max-width: 500px;
-    min-width: 400px;
+.contact,
+.mapa iframe {
+  height: 400px;
+  max-width: 500px;
+  min-width: 400px;
 }
-
 
 .input-group {
-    font-size: 15pt;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+  font-size: 15pt;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .input-group label {
-    color: black;
-    position: absolute;
-    top: 12%;
-    left: 5%;
-    pointer-events: none;
-    transition: 0.3s ease-in-out;
+  color: black;
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  pointer-events: none;
+  transition: 0.3s ease-in-out;
 }
 
 .input-group input:focus ~ label,
-.input-group input:valid ~ label
- {
-    background-color: white;
-    top: -30%;
-    left: 5%;
-    color: cornflowerblue;
-    font-size: 0.8em;
+.input-group input:valid ~ label {
+  background-color: white;
+  top: -30%;
+  left: 5%;
+  color: cornflowerblue;
+  font-size: 0.8em;
 }
 
-.input-group .mensagem{
-    height: 100%;
+.input-group .mensagem {
+  height: 100%;
 }
 
-.input-group label, .input-group input{
-    text-align: start;
+.input-group label,
+.input-group input {
+  text-align: start;
 }
 
-.input-group input{
-    min-height: 40px;
+.input-group input {
+  min-height: 40px;
 }
-

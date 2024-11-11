@@ -3,8 +3,7 @@
   margin: auto;
 }
 
-.app .main{
-  clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%); /* Corte transversal */
+.app .main {
   background-color: #0c0f30;
   width: 100vw;
   height: auto;
