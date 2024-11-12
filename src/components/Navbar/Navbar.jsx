@@ -1,51 +1,47 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { assets } from "../../assets/assets";
+import SupportModal from "../SupportModal/SupportModal"; // Importe o modal
+
 
 const Navbar = () => {
-  const [menu, setmenu] = useState("home");
+  const [menu, setMenu] = useState("home");
+  const [openSupport, setOpenSupport] = useState(false);
 
   return (
     <div className="navbar">
       <img src={assets.logo} alt="" className="logo"></img>
       <ul className="navbar-menu">
         <li
-          onClick={() => {
-            setmenu("home");
-          }}
-          className={menu == "home" ? "active" : ""}
+          onClick={() => setMenu("home")}
+          className={menu === "home" ? "active" : ""}
         >
           Sobre nós
         </li>
         <li
-          onClick={() => {
-            setmenu("menu");
-          }}
-          className={menu == "menu" ? "active" : ""}
+          onClick={() => setMenu("menu")}
+          className={menu === "menu" ? "active" : ""}
         >
           Área de atuação
         </li>
         <li
           onClick={() => {
-            setmenu("mobile-app");
+            setMenu("mobile-app");
+            setOpenSupport(true); // Define openSupport como true para abrir o modal
           }}
-          className={menu == "mobile-app" ? "active" : ""}
+          className={menu === "mobile-app" ? "active" : ""}
         >
           Suporte
         </li>
         <li
-          onClick={() => {
-            setmenu("contact-us");
-          }}
-          className={menu == "contact-us" ? "active" : ""}
+          onClick={() => setMenu("contact-us")}
+          className={menu === "contact-us" ? "active" : ""}
         >
           Feedback
         </li>
         <li
-          onClick={() => {
-            setmenu("contact-us");
-          }}
-          className={menu == "contact-us" ? "active" : ""}
+          onClick={() => setMenu("contact-us")}
+          className={menu === "contact-us" ? "active" : ""}
         >
           Contato
         </li>
@@ -58,6 +54,9 @@ const Navbar = () => {
           <div className="dot"></div>
         </div>
       </div>
+
+      {openSupport && <SupportModal onClose={() => setOpenSupport(false)} />}
+
     </div>
   );
 };

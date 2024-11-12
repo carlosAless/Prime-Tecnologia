@@ -127,9 +127,9 @@ h2 {
 .containerClock {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
+  justify-content: start;
   grid-gap: 20px;
-  align-items: center;
+  align-items: start;
   width: 100%; /* Garante que a largura do container ocupe o espaço disponível */
 }
 

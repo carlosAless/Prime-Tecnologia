@@ -1,5 +1,8 @@
 footer {
   background-color: #0c0f30;
+background-image: url("../../assets/grid.png");
+background-repeat: repeat; /* Repete a imagem infinitamente */
+background-size: 15px;
   color: white;
   position: relative;
   padding: 50px 10% 0px 10% ;
@@ -12,6 +15,7 @@ footer {
   ;
   align-items: center;
   text-align: center;
+  border-top:1px solid white ;
 }
 
 .logo{

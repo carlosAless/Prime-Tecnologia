@@ -6,6 +6,10 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+ position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
+  background-image: url("../../assets/grid.png");
+  background-repeat: repeat; /* Repete a imagem infinitamente */
+  background-size: 15px;
 }
 
 .contact {
