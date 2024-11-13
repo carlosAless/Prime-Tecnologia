@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 import suporte from "../../assets/suportewhite.svg";
 import empresas from "../../assets/empresawhite.svg";
 import avaliacao from "../../assets/experienciawhite.svg";
 import mapa from "../../assets/mapawhite.svg";
-import "./Services.css"
-import { Clients } from "../Clients/Clients"
+import "./Services.css";
+import { Clients } from "../Clients/Clients";
 export const Services = () => {
   return (
     <section className="services-section">
@@ -22,13 +22,16 @@ export const Services = () => {
           <p>+9 anos de experiência</p>
         </div>
         <div className="highlight-item">
-          <img src={mapa} alt="Atendimento em Jataí e região" className="icon" />
+          <img
+            src={mapa}
+            alt="Atendimento em Jataí e região"
+            className="icon"
+          />
           <p>Atendimento em Jataí e região</p>
         </div>
       </div>
 
       <div className="services-list">
-
         <div className="service-item">
           <div className="service-icon"></div>
           <h4>Relógio de ponto</h4>
@@ -59,9 +62,6 @@ export const Services = () => {
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
         </div>
       </div>
-
-      <Clients></Clients>
     </section>
-
-  )
-}
+  );
+};
