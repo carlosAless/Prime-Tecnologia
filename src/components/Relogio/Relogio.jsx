@@ -2,6 +2,7 @@ import "./Relogio.css";
 
 import rhid from "../../assets/rhid.webp";
 import controleacesso from "../../assets/controleacesso.svg";
+import repidclass from "../../assets/idclass.png";
 
 const Relogio = () => {
   return (
@@ -40,7 +41,6 @@ const Relogio = () => {
               <p>Control iD</p>
               <p>Control iD</p>
               <p>Control iD</p>
-              <p>Control iD</p>
             </div>
 
             <section className="produtosid">
@@ -55,38 +55,44 @@ const Relogio = () => {
         </section>
 
         <section className="sectionClock">
-          <h2>IDClass Equipamento líder em vendas</h2>
+          <h2>REP IDClass Equipamento líder em vendas</h2>
           <div className="containerClock">
-            <div className="clockInformation info1">
-              <p>Capacidade de bobina até 400 metros</p>
-            </div>
-            <div className="clockInformation info2">
-              <p>Display colorido de 2,4 polegadas</p>
-            </div>
+            <div className="right">
+              <div className="clockInformation info1">
+                <p>Capacidade de bobina até 400 metros</p>
+              </div>
+              <div className="clockInformation info2">
+                <p>Display colorido de 2,4 polegadas</p>
+              </div>
 
-            <div className="clockInformation info3">
-              <p>Duas portas USB fiscal e geral</p>
+              <div className="clockInformation info3">
+                <p>Duas portas USB fiscal e geral</p>
+              </div>
             </div>
+            <div className="center">
+              <div className="clockInformation info4">
+                <p>Conexão de Internet</p>
+              </div>
 
-            <div className="info4">
-              <p>Conexão de Internet</p>
+              <div className="imageContainer">
+                <img src={repidclass} alt="idclass" className="idclass" />
+                {/* SVG para as linhas com quebras */}
+              </div>
             </div>
-            <div className="imageContainer">
-              <img src={controleacesso} alt="idclass" className="idclass" />
-            </div>
+            <div className="left">
+              <div className="clockInformation info5">
+                <p>
+                  RH<span>ID</span> + IDCLOUD integração com software de
+                  apuração de ponto na nuvem
+                </p>
+              </div>
 
-            <div className="clockInformation info5">
-              <p>
-                RH<span>ID</span> + IDCLOUD integração com software de apuração
-                de ponto na nuvem
-              </p>
-            </div>
-
-            <div className="clockInformation info6">
-              <p>Leitor de digital</p>
-            </div>
-            <div className="clockInformation info7">
-              <p>Leitor de código de barras</p>
+              <div className="clockInformation info6">
+                <p>Leitor de digital</p>
+              </div>
+              <div className="clockInformation info7">
+                <p>Leitor de código de barras</p>
+              </div>
             </div>
           </div>
         </section>

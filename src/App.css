@@ -12,7 +12,7 @@
   background-repeat: repeat; /* Repete a imagem infinitamente */
   background-size: 15px;
   display: flex;
-  gap: 2vw;
+  gap: 15vw;
   flex-direction: column;
-  padding: 10rem 5%;
+  padding: 10rem 8%;
 }
