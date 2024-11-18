@@ -1,36 +1,35 @@
 footer {
   background-color: #0c0f30;
-background-image: url("../../assets/grid.png");
-background-repeat: repeat; /* Repete a imagem infinitamente */
-background-size: 15px;
+  background-image: url("../../assets/background.png");
+  background-repeat: repeat; /* Repete a imagem infinitamente */
+
   color: white;
   position: relative;
-  padding: 50px 10% 0px 10% ;
+  padding: 50px 10% 0px 10%;
   display: grid;
   justify-content: space-between;
   align-items: center;
-  grid-template-areas: 
-  "logo guia network"
-  "copyr copyr copyr"
-  ;
+  grid-template-areas:
+    "logo guia network"
+    "copyr copyr copyr";
   align-items: center;
   text-align: center;
-  border-top:1px solid white ;
+  border-top: 1px solid white;
 }
 
-.logo{
+.logo {
   grid-area: logo;
 }
 
-.logo img{
+.logo img {
   width: 150px;
 }
 
-.infoPrime{
+.infoPrime {
   grid-area: guia;
 }
 
-.network{
+.network {
   grid-area: network;
   display: flex;
   justify-content: center;
@@ -39,31 +38,29 @@ background-size: 15px;
   width: 100%;
 }
 
-.primetecnologia{
+.primetecnologia {
   grid-area: copyr;
   margin: 30px 0px 0px 0px;
 }
 
-.network ul{
+.network ul {
   display: flex;
   width: 100%;
 }
 
-
-
-.network ul li{
+.network ul li {
   width: 100%;
-  position:relative;
+  position: relative;
 }
 
-.network ul li img{
+.network ul li img {
   position: absolute;
-  width:40px;
+  width: 40px;
   top: 50%;
   left: 50%;
 }
 
-.infoPrime ul a li{
+.infoPrime ul a li {
   font-size: 10pt;
   font-weight: 200;
 }

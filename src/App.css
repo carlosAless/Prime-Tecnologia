@@ -1,18 +1,20 @@
-.app {
-  width: 100%;
-  margin: auto;
+::-webkit-scrollbar {
+  width: 15px; /* Define a largura da barra de rolagem vertical */
+  height: 15px; /* Define a altura da barra de rolagem horizontal */
 }
 
-.app .main {
-  background-color: #0c0f30;
-  width: 100%;
-  height: auto;
-  position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
-  background-image: url("./assets/grid.png");
-  background-repeat: repeat; /* Repete a imagem infinitamente */
-  background-size: 15px;
-  display: flex;
-  gap: 15vw;
-  flex-direction: column;
-  padding: 10rem 8%;
+/* Cor do fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #98b2c7; /* Cinza claro */
+}
+
+/* Cor e estilo do indicador de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #007bff; /* Azul */
+  border: 0px solid #f0f0f0; /* Espaço ao redor do indicador */
+}
+
+/* Cor do indicador quando o cursor passa por cima */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0056b3; /* Azul mais escuro */
 }

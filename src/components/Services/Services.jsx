@@ -1,10 +1,8 @@
-import React from "react";
 import suporte from "../../assets/suportewhite.svg";
 import empresas from "../../assets/empresawhite.svg";
 import avaliacao from "../../assets/experienciawhite.svg";
 import mapa from "../../assets/mapawhite.svg";
 import "./Services.css";
-import { Clients } from "../Clients/Clients";
 export const Services = () => {
   return (
     <section className="services-section">

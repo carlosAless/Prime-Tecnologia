@@ -1,0 +1,67 @@
+.pageContainer {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.pageContainer .main {
+  background-color: #0c0f30;
+  width: 100%;
+  height: auto;
+  position: relative; /* Para que o elemento filho (.title) com position: absolute seja relativo a essa div */
+  background-image: url("../../assets/background.png");
+  background-repeat: repeat; /* Repete a imagem infinitamente */
+  display: flex;
+  gap: 15vw;
+  flex-direction: column;
+  padding: 10rem 8%;
+}
+
+.containerContact,
+.services-section {
+  position: relative;
+}
+
+.title-section {
+  transform: rotate(-90deg);
+  position: absolute;
+}
+
+.title-section h2 {
+  letter-spacing: 10px;
+  font-size: 4rem;
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke: 1px #202342;
+  margin: 0;
+  padding: 10px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.about {
+  top: 14%;
+  left: -5.6%;
+  z-index: 1010;
+  background: none;
+}
+
+.dot {
+  left: -19%;
+  top: 30%;
+  z-index: 1010;
+  background: none;
+}
+
+.infra {
+  left: 0%;
+  top: 60%;
+  z-index: 1010;
+  background: none;
+}
+
+.contact {
+  z-index: 1010;
+  background: none;
+  bottom: 8%;
+}

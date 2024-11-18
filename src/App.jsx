@@ -1,28 +1,19 @@
-import Navbar from "./components/Navbar/Navbar";
-import Head from "./components/Head/Head";
-import Relogio from "./components/Relogio/Relogio";
-import Footer from "./components/Footer/Footer";
-import Redes from "./components/Redes/Redes";
-import Contact from "./components/Contact/Contact";
-import { Services } from "./components/Services/Services";
 import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { PrimeTecnologia } from "./pages/PrimeTecnologia/PrimeTecnologia";
+import { NotFound } from "./pages/NotFound/NotFound";
 
 const App = () => {
   return (
-    <div className="app">
-      <Navbar></Navbar>
-
-      <Head />
-      <main className="main">
-        <Services></Services>
-        <Relogio></Relogio>
-      </main>
-
-      <Redes></Redes>
-
-      <Contact></Contact>
-      <Footer></Footer>
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          path="Prime-Tecnologia/"
+          element={<PrimeTecnologia></PrimeTecnologia>}
+        />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 };
 
