@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Head from "../../components/Head/Head";
 import Relogio from "../../components/Relogio/Relogio";
 import Footer from "../../components/Footer/Footer";
-import Redes from "../../components/Redes/Redes";
+import Infra from "../../components/Infra/Infra";
 import Contact from "../../components/Contact/Contact";
 import { Services } from "../../components/Services/Services";
 import "./PrimeTecnologia.css";
@@ -28,7 +28,7 @@ export const PrimeTecnologia = () => {
         <Services></Services>
         <Relogio></Relogio>
       </main>
-      <Redes></Redes>
+      <Infra></Infra>
       <Contact></Contact>
       <Footer></Footer>
     </div>
