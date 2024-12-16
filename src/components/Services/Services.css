@@ -11,6 +11,11 @@ p {
   position: relative;
 }
 
+.services-section > div{
+  max-width: 1920px;
+
+}
+
 .services-section .services-list {
   display: flex;
   flex-direction: row;

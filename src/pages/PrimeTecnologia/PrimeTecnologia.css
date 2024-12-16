@@ -2,9 +2,11 @@
   width: 100%;
   margin: auto;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-.pageContainer .main {
+.pageContainer :where(main.main, div.redesContainer) {
   background-color: #0c0f30;
   width: 100%;
   height: auto;
@@ -15,6 +17,16 @@
   gap: 15vw;
   flex-direction: column;
   padding: 10rem 8%;
+}
+
+.main .containerRelogio{
+  margin: auto;
+  width: 100%;
+}
+
+.main .containerRelogio > *{
+  max-width: 1920px;
+  margin: auto;
 }
 
 .containerContact,

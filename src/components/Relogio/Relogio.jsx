@@ -13,7 +13,7 @@ import codigo from "../../assets/codigo.svg";
 
 const Relogio = () => {
   return (
-    <div>
+    <div className="containerRelogio">
       <div className="section-relogio">
         <main className="relogio">
           <section className="info">
