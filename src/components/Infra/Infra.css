@@ -1,7 +1,17 @@
-.redesContainer .network {
+.redesContainer .network{
+  position: relative;
+}
+
+.redesContainer .network::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-image: linear-gradient(to top, #0c0f30, rgba(12, 15, 48, 0) 50%),
     /* Gradiente superior */
-      linear-gradient(to bottom, #0c0f30, rgba(12, 15, 48, 0) 50%),
+      linear-gradient(to bottom, #0c0f30, rgba(12, 15, 48, 0.925) 50%),
     /* Gradiente inferior */
       linear-gradient(to left, #0c0f30, rgba(12, 15, 48, 0) 50%),
     /* Gradiente esquerdo */
@@ -10,14 +20,29 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
+  z-index: 0;
 }
 
+
+
+.redesContainer .network::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/background.png");
+    background-repeat: repeat; /* Faz os pontinhos se repetir */
+    z-index: 1; /* Fica acima do primeiro background */
+    background-position: center;
+   
+}
+
+.redesContainer .network img{
+  position:relative;
+  z-index: 2;
+}
 
 
 .redesContainer h1,
