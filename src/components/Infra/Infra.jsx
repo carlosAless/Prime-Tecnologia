@@ -1,6 +1,7 @@
 import "./Infra.css";
 import computer from "../../assets/computer.svg";
 import network from "../../assets/network.png";
+import { ReactTyped } from "react-typed";
 
 const Infra = () => {
   return (
@@ -8,11 +9,21 @@ const Infra = () => {
       <h2>Serviços de rede e manutenção</h2>
 
       <div className="network">
-        <img src={network} alt="redes" srcSet="" />
+        <img src={network} alt="redes" />
       </div>
 
-      <h2>Seu computador está</h2>
-      <h1>LENTO?</h1>
+      <div>
+        <h2>Seu computador está</h2>
+
+        <ReactTyped
+          className="typewriterContainer"
+          strings={["LENTO?", "SUJO?", "ESQUENTANDO?"]}
+          typeSpeed={100}
+          backSpeed={30}
+          loop
+          showCursor={true}
+        />
+      </div>
 
       <div className="computer">
         <img src={computer} alt="computer" />

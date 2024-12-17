@@ -1,55 +1,9 @@
-.redesContainer .network{
-  position: relative;
-}
-
-.redesContainer .network::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
+.typewriterContainer {
   width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to top, #0c0f30, rgba(12, 15, 48, 0) 50%),
-    /* Gradiente superior */
-      linear-gradient(to bottom, #0c0f30, rgba(12, 15, 48, 0.925) 50%),
-    /* Gradiente inferior */
-      linear-gradient(to left, #0c0f30, rgba(12, 15, 48, 0) 50%),
-    /* Gradiente esquerdo */
-      linear-gradient(to right, #0c0f30, rgba(12, 15, 48, 0) 50%),
-    /* Gradiente direito */ url("../../assets/backgroundserver.jpg"); /* Imagem de fundo */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: 0;
+  display: flex;
+  justify-content: center;
 }
-
-
-
-.redesContainer .network::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../../assets/background.png");
-    background-repeat: repeat; /* Faz os pontinhos se repetir */
-    z-index: 1; /* Fica acima do primeiro background */
-    background-position: center;
-   
-}
-
-.redesContainer .network img{
-  position:relative;
-  z-index: 2;
-}
-
-
-.redesContainer h1,
-.redesContainer h2 {
-  position: relative;
-  color: white;
-  z-index: 2;
-  text-align: center;
-  margin: 0;
+.typewriterContainer span {
+  color: rgb(42, 128, 185);
+  font-size: 30pt;
 }
