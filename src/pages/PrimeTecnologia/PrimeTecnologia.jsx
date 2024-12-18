@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import Infra from "../../components/Infra/Infra";
 import Contact from "../../components/Contact/Contact";
 import { Services } from "../../components/Services/Services";
+import { Comment } from "../../components/Comment/Comment";
 import "./PrimeTecnologia.css";
 
 export const PrimeTecnologia = () => {
@@ -29,6 +30,7 @@ export const PrimeTecnologia = () => {
         <Relogio></Relogio>
       </main>
       <Infra></Infra>
+      <Comment></Comment>
       <Contact></Contact>
       <Footer></Footer>
     </div>
