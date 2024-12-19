@@ -26,6 +26,7 @@
     "react-router-dom": "^6.28.0",
     "react-simple-typewriter": "^5.0.1",
     "react-typed": "^2.0.12",
+    "swiper": "^6.8.4",
     "three": "^0.169.0"
   },
   "devDependencies": {

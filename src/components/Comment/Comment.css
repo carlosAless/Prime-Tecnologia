@@ -1,3 +1,6 @@
+
+
+
 .comments {
   background-color: #0c0f30;
   padding: 7rem 3rem;
@@ -14,7 +17,8 @@
 
 .comment-track {
   display: flex;
-  animation: scroll-loop 20s linear infinite; /* Animação contínua */
+  transform: translateX(-100%); /* Move até a metade do conteúdo duplicado */
+
 }
 
 .comment {
@@ -61,6 +65,7 @@
     transform: translateX(0); /* Começa do início */
   }
   100% {
-    transform: translateX(-50%); /* Move até a metade do conteúdo duplicado */
+    transform: translateX(-100%); /* Move até a metade do conteúdo duplicado */
   }
 }
+ 
