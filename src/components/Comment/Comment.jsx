@@ -1,7 +1,6 @@
 import "./Comment.css";
 
 export const Comment = () => {
-
   const comments = [
     {
       id: 1,
@@ -50,6 +49,42 @@ export const Comment = () => {
       name: "Willer Silva de Morais",
       stars: "⭐⭐⭐⭐⭐",
       text: "Bom atendimento.",
+    },
+    {
+      id: 9,
+      name: "Luiz Felipe",
+      stars: "⭐⭐⭐⭐⭐",
+      text: "Quero expressar minha gratidão e satisfação pelo excelente serviço de instalação do office em meu notebook. Recomendo!!",
+    },
+    {
+      id: 10,
+      name: "IZABELLA BORGES RODRIGUES COSTA",
+      stars: "⭐⭐⭐⭐⭐",
+      text: "Excelente atendimento, ótima qualidade e rapidez.",
+    },
+    {
+      id: 11,
+      name: "Lucas Henrique",
+      stars: "⭐⭐⭐⭐⭐",
+      text: "Atendimento rápido, de qualidade e preço justo. Profissionais qualificados e atenciosos.",
+    },
+    {
+      id: 12,
+      name: "Celio Bernardo de Lima",
+      stars: "⭐⭐⭐⭐⭐",
+      text: "Tive um problema em um equipamento eletrônico que foi resolvido perfeitamente",
+    },
+    {
+      id: 13,
+      name: "Lucas Henrique",
+      stars: "⭐⭐⭐⭐⭐",
+      text: "Atendimento rápido, de qualidade e preço justo. Profissionais qualificados e atenciosos.",
+    },
+    {
+      id: 14,
+      name: "Helder Allucci",
+      stars: "⭐⭐⭐⭐⭐",
+      text: "Empresa de tecnologia focada em gestão de acesso e ponto",
     },
   ];
 

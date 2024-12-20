@@ -25,14 +25,16 @@ export const PrimeTecnologia = () => {
       </div>
       <Navbar></Navbar>
       <Head />
-      <main className="main">
-        <Services></Services>
-        <Relogio></Relogio>
-      </main>
-      <Infra></Infra>
-      <Comment></Comment>
-      <Contact></Contact>
-      <Footer></Footer>
+      <div className="layoutWrapper">
+        <main className="main">
+          <Services></Services>
+          <Relogio></Relogio>
+        </main>
+        <Infra></Infra>
+        <Comment></Comment>
+        <Contact></Contact>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };
